@@ -1,7 +1,7 @@
 <?php include('header.php'); 
 
-
 //block somone without login
+
 if(!isset($_SESSION['email']))
     header("Location: /login.php");
 
